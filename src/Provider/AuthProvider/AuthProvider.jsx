@@ -1,6 +1,7 @@
 import { createContext, useEffect, useState } from "react";
 import { app } from "../../Firebase/firebase.config";
 import { createUserWithEmailAndPassword, GoogleAuthProvider, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signOut, updateProfile, signInWithPopup } from "firebase/auth";
+import axios from "axios";
 
 
 export const AuthContext = createContext(null)
@@ -37,10 +38,13 @@ const AuthProvider = ({ children }) => {
 
     useEffect(() => {
         const unsubsCribe = onAuthStateChanged(auth, currentUser => {
-            console.log(currentUser)
             setUser(currentUser)
+            const loggedUser = { email: currentUser.email }
             setLoading(false)
-
+            if (currentUser) {
+                axios.post('https://library-management-server-bice.vercel.app/jwt', loggedUser, { withCredentials: true })
+                    .then(res => console.log(res.data))
+            }
         })
 
         return () => {

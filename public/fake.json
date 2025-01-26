@@ -1,0 +1,247 @@
+[
+    {
+        "bookName": "The Stranger in the Lifeboat",
+        "bookImage": "https://i.thriftbooks.com/api/imagehandler/l/A4445FC12494635FB586B77551486C3A6A2E1BC4.jpeg",
+        "quantity": 5,
+        "authorName": "F. Scott Fitzgerald",
+        "totalPages": 180,
+        "publishYear": 1925,
+        "format": "Hardcover",
+        "language": "English",
+        "tags": "Classic",
+        "bookCategory": "Fiction",
+        "rating": 4,
+        "description": "A story of love, wealth, and the American Dream in 1920s New York.",
+        "century": "20th Century",
+        "price": 12,
+        "authorImage": "https://static.thriftbooks.com/author_images/Mitch_Albom.jpg"
+    },
+    {
+        "bookName": "1984",
+        "bookImage": "https://example.com/1984.jpg",
+        "quantity": 8,
+        "authorName": "George Orwell",
+        "totalPages": 328,
+        "publishYear": 1949,
+        "format": "Paperback",
+        "language": "English",
+        "tags": [
+            "Dystopian",
+            "Political Fiction",
+            "Science Fiction"
+        ],
+        "bookCategory": "Fiction",
+        "rating": 4.7,
+        "description": "A chilling dystopian novel about totalitarian surveillance and mind control.",
+        "century": "20th Century",
+        "price": 9.99,
+        "authorImage": "https://example.com/orwell.jpg"
+    },
+    {
+        "bookName": "To Kill a Mockingbird",
+        "bookImage": "https://example.com/mockingbird.jpg",
+        "quantity": 10,
+        "authorName": "Harper Lee",
+        "totalPages": 281,
+        "publishYear": 1960,
+        "format": "Hardcover",
+        "language": "English",
+        "tags": [
+            "Classic",
+            "Historical Fiction",
+            "Civil Rights"
+        ],
+        "bookCategory": "Fiction",
+        "rating": 4.8,
+        "description": "A poignant story of racial injustice in the American South.",
+        "century": "20th Century",
+        "price": 14.99,
+        "authorImage": "https://example.com/lee.jpg"
+    },
+    {
+        "bookName": "The Catcher in the Rye",
+        "bookImage": "https://example.com/catcher.jpg",
+        "quantity": 3,
+        "authorName": "J.D. Salinger",
+        "totalPages": 277,
+        "publishYear": 1951,
+        "format": "Paperback",
+        "language": "English",
+        "tags": [
+            "Classic",
+            "Coming-of-Age",
+            "Literary Fiction"
+        ],
+        "bookCategory": "Fiction",
+        "rating": 4.0,
+        "description": "A teenager’s emotional journey through confusion and rebellion in New York City.",
+        "century": "20th Century",
+        "price": 11.50,
+        "authorImage": "https://example.com/salinger.jpg"
+    },
+    {
+        "bookName": "Pride and Prejudice",
+        "bookImage": "https://example.com/pride.jpg",
+        "quantity": 7,
+        "authorName": "Jane Austen",
+        "totalPages": 279,
+        "publishYear": 1813,
+        "format": "Paperback",
+        "language": "English",
+        "tags": [
+            "Classic",
+            "Romance",
+            "Literary Fiction"
+        ],
+        "bookCategory": "Fiction",
+        "rating": 4.6,
+        "description": "A witty tale of love, marriage, and manners in early 19th century England.",
+        "century": "19th Century",
+        "price": 13.99,
+        "authorImage": "https://example.com/austen.jpg"
+    },
+    {
+        "bookName": "The Hobbit",
+        "bookImage": "https://example.com/hobbit.jpg",
+        "quantity": 15,
+        "authorName": "J.R.R. Tolkien",
+        "totalPages": 310,
+        "publishYear": 1937,
+        "format": "Hardcover",
+        "language": "English",
+        "tags": [
+            "Fantasy",
+            "Adventure",
+            "Classic"
+        ],
+        "bookCategory": "Fantasy",
+        "rating": 4.7,
+        "description": "A young hobbit’s epic quest to recover treasure from a dragon.",
+        "century": "20th Century",
+        "price": 16.50,
+        "authorImage": "https://example.com/tolkien.jpg"
+    },
+    {
+        "bookName": "Harry Potter and the Sorcerer's Stone",
+        "bookImage": "https://example.com/harrypotter1.jpg",
+        "quantity": 20,
+        "authorName": "J.K. Rowling",
+        "totalPages": 309,
+        "publishYear": 1997,
+        "format": "Paperback",
+        "language": "English",
+        "tags": [
+            "Fantasy",
+            "Magic",
+            "Young Adult"
+        ],
+        "bookCategory": "Fantasy",
+        "rating": 4.9,
+        "description": "The first book in the epic series about a young wizard's adventures.",
+        "century": "20th Century",
+        "price": 7.99,
+        "authorImage": "https://example.com/rowling.jpg"
+    },
+    {
+        "bookName": "The Road",
+        "bookImage": "https://example.com/road.jpg",
+        "quantity": 6,
+        "authorName": "Cormac McCarthy",
+        "totalPages": 287,
+        "publishYear": 2006,
+        "format": "Paperback",
+        "language": "English",
+        "tags": [
+            "Post-apocalyptic",
+            "Literary Fiction",
+            "Survival"
+        ],
+        "bookCategory": "Fiction",
+        "rating": 4.2,
+        "description": "A father and son struggle to survive in a bleak, post-apocalyptic world.",
+        "century": "21st Century",
+        "price": 8.99,
+        "authorImage": "https://example.com/mccarthy.jpg"
+    },
+    {
+        "bookName": "The Alchemist",
+        "bookImage": "https://example.com/alchemist.jpg",
+        "quantity": 12,
+        "authorName": "Paulo Coelho",
+        "totalPages": 208,
+        "publishYear": 1988,
+        "format": "Hardcover",
+        "language": "Portuguese",
+        "tags": [
+            "Adventure",
+            "Philosophical",
+            "Motivational"
+        ],
+        "bookCategory": "Fiction",
+        "rating": 4.5,
+        "description": "A young shepherd's quest to find a hidden treasure and discover his personal legend.",
+        "century": "20th Century",
+        "price": 15.99,
+        "authorImage": "https://example.com/coelho.jpg"
+    },
+    {
+        "bookName": "The Diary of a Young Girl",
+        "bookImage": "https://example.com/annefrank.jpg",
+        "quantity": 9,
+        "authorName": "Anne Frank",
+        "totalPages": 283,
+        "publishYear": 1947,
+        "format": "Paperback",
+        "language": "English",
+        "tags": [
+            "Memoir",
+            "World War II",
+            "Holocaust"
+        ],
+        "bookCategory": "Non-fiction",
+        "rating": 4.8,
+        "description": "The powerful and poignant diary of a Jewish girl hiding from the Nazis.",
+        "century": "20th Century",
+        "price": 10.50,
+        "authorImage": "https://example.com/frank.jpg"
+    },
+    {
+        "bookName": "Sapiens: A Brief History of Humankind",
+        "bookImage": "https://example.com/sapiens.jpg",
+        "quantity": 4,
+        "authorName": "Yuval Noah Harari",
+        "totalPages": 443,
+        "publishYear": 2011,
+        "format": "Hardcover",
+        "language": "English",
+        "tags": [
+            "History",
+            "Anthropology",
+            "Science"
+        ],
+        "bookCategory": "Non-fiction",
+        "rating": 4.7,
+        "description": "A sweeping history of humankind, from ancient times to the present.",
+        "century": "21st Century",
+        "price": 18.99,
+        "authorImage": "https://example.com/harari.jpg"
+    },
+    {
+        "bookName": "Educated",
+        "bookImage": "https://example.com/educated.jpg",
+        "quantity": 11,
+        "authorName": "Tara Westover",
+        "totalPages": 334,
+        "publishYear": 2018,
+        "format": "Paperback",
+        "language": "English",
+        "tags": [
+            "Memoir",
+            "Education",
+            "Family"
+        ],
+        "bookCategory": "Non-fiction",
+        "rating": 4.6,
+        "description": "A memoir of a young girl who grows up in a survivalist family and seeks education."
+    }
+]

@@ -7,8 +7,8 @@ const Navbar = () => {
     const navlink = <>
         <li><NavLink to='/'>Home</NavLink></li>
         <li><NavLink to='/addBook'>Add Book</NavLink></li>
-        <li><NavLink>All Books</NavLink></li>
-        <li><NavLink>Borrowed Books</NavLink></li>
+        <li><NavLink to='/allBooks'>All Books</NavLink></li>
+        <li><NavLink to='/myBook'>Borrowed Books</NavLink></li>
     </>
 
     const handleLogOut = async () => {

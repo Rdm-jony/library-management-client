@@ -11,7 +11,7 @@ const TopCategories = () => {
     const { data: categories } = useQuery({
         queryKey: ['category'],
         queryFn: async () => {
-            const { data } = await axios.get('http://localhost:5000/category')
+            const { data } = await axios.get('https://library-management-server-bice.vercel.app/category')
             return data
         }
     })
@@ -21,7 +21,17 @@ const TopCategories = () => {
             <h2 className="text-5xl  font-semibold relative left-1/2 translate-x-[-50%]  inline-block bg-sky-100 px-5 text-center z-20">Top Categories Book</h2>
             <div className="max-w-6xl mx-auto border-2 border-primary relative -top-5 z-10 left-0 rounded-md p-5 pt-10">
                 <Swiper slidesPerView={3}
-                    // spaceBetween={30}
+                    breakpoints={{
+                        400:{
+                            slidesPerView:1
+                        },
+                        600:{
+                            slidesPerView:2
+                        },
+                        800:{
+                            slidesPerView:4
+                        },
+                    }}
                     navigation={true}
                     loop={true}
                     modules={[Navigation]}
